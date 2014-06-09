@@ -1,0 +1,106 @@
+// Cool
+
+$aqua:  #7FDBFF;
+$blue:  #0074D9;
+$navy:  #001F3F;
+$teal:  #39CCCC;
+$green: #2ECC40;
+$olive: #3D9970;
+$lime:  #01FF70;
+
+// Warm
+
+$yellow:  #FFDC00;
+$orange:  #FF851B;
+$red:     #FF4136;
+$fuchsia: #F012BE;
+$purple:  #B10DC9;
+$maroon:  #85144B;
+
+// Gray Scale
+
+$white:  #fff;
+$silver: #ddd;
+$gray:   #aaa;
+$black:  #111;
+
+/***** Prettier Links *****/
+
+a {
+  transition:         color .3s ease-in-out;
+}
+
+a:link    { color: $blue; }
+a:visited { color: $purple; }
+a:hover   { color: $aqua; }
+a:active  { color: $orange; }
+
+/***** Backgrounds *****/
+
+%bg-navy {    background-color: $navy; }
+%bg-blue {    background-color: $blue; }
+%bg-aqua {    background-color: $aqua; }
+%bg-teal {    background-color: $teal; }
+%bg-olive {   background-color: $olive; }
+%bg-green {   background-color: $green; }
+%bg-lime {    background-color: $lime; }
+%bg-yellow {  background-color: $yellow; }
+%bg-orange {  background-color: $orange; }
+%bg-red {     background-color: $red; }
+%bg-fuchsia { background-color: $fuchsia; }
+%bg-purple {  background-color: $purple; }
+%bg-maroon {  background-color: $maroon; }
+%bg-white {   background-color: $white; }
+%bg-gray {    background-color: $gray; }
+%bg-silver {  background-color: $silver; }
+%bg-black {   background-color: $black; }
+
+
+/***** Colors *****/
+
+%navy {       color: $navy; }
+%blue {       color: $blue; }
+%aqua {       color: $aqua; }
+%teal {       color: $teal; }
+%olive {      color: $olive; }
+%green {      color: $green; }
+%lime {       color: $lime; }
+%yellow {     color: $yellow; }
+%orange {     color: $orange; }
+%red {        color: $red; }
+%fuchsia {    color: $fuchsia; }
+%purple {     color: $purple; }
+%maroon {     color: $maroon; }
+%white {      color: $white; }
+%silver {     color: $silver; }
+%gray {       color: $gray; }
+%black {      color: $black; }
+
+
+/** corporate colors **/
+%amazon          {color: rgb(228, 121,  17);}
+%adobe           {color: rgb(255,  0,    0);}
+%apple           {color: rgb(224, 224, 224);}
+%blogger         {color: rgb(252,  79,   8);}
+%blosxom         {color: rgb( 51, 102, 153);}
+%creativecommons {color: rgb(171, 179, 172);}
+%delicious       {color: rgb( 32,  92, 192);}
+%deviantart      {color: rgb( 78,  98,  82);}
+%dribbble        {color: rgb(234,  76, 137);}
+%dropbox         {color: rgb( 61, 154, 232);}
+%facebook        {color: rgb( 59,  89, 152);}
+%feed            {color: rgb(238, 128,  47);}
+%flickr          {color: rgb(255,   0, 132);}
+%github          {color: rgb( 23,  21,  21);}
+%ifttt           {color: rgb( 51, 204, 255);}
+%ikea            {color: rgb(255, 204,  51);}
+%lastfm          {color: rgb(195,   0,  13);}
+%muji            {color: rgb(127,   0,  25);}
+%pinterest       {color: rgb(200,  35,  44);}
+%quora           {color: rgb(168,  36,   0);}
+%readability     {color: rgb(156,   0,   0);}
+%tumblr          {color: rgb( 52,  82, 111);}
+%twitter         {color: rgb(  0, 172, 238);}
+%vimeo           {color: rgb(120, 148, 202);}
+%xbox            {color: rgb(134, 201, 239);}
+%youtube         {color: rgb(196,  48,  43);}
